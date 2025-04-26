@@ -1,0 +1,48 @@
+README - Desafios:
+
+DesafioConversao
+Descrição
+Este é um pequeno programa Java que calcula a média de três salários fornecidos pelo usuário. O código foi desenvolvido como parte de um desafio de programação para praticar conceitos básicos de Java, como entrada de dados, manipulação de strings e operações matemáticas.
+
+Funcionalidades
+Solicita ao usuário três valores de salário
+
+Aceita valores com vírgula ou ponto como separador decimal
+
+Remove espaços em branco extras dos valores inseridos
+
+Converte os valores para double
+
+Calcula e exibe a média dos três salários
+
+Como Usar
+Certifique-se de ter o Java instalado em seu computador
+
+Compile o arquivo DesafioConversao.java com o comando:
+
+javac DesafioConversao.java
+Execute o programa com:
+
+java DesafioConversao
+Siga as instruções no terminal para inserir os três salários
+
+O programa exibirá a média dos salários inseridos
+
+Exemplo de Entrada/Saída
+Digite o primeiro salário: 1.500,50
+Digite o segundo salário:  2,000.75  
+Digite o terceiro salário: 1.800,25
+A soma dos salários é: 1767.1666666666667
+Observações
+O programa substitui vírgulas por pontos para garantir a correta conversão para double
+
+Espaços em branco extras são removidos automaticamente
+
+O cálculo é feito com precisão de ponto flutuante
+
+Melhorias Futuras
+Adicionar tratamento de erros para entradas inválidas
+
+Formatador de saída para limitar casas decimais
+
+Opção para calcular outros tipos de média (ponderada, etc.)
