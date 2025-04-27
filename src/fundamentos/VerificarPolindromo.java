@@ -21,6 +21,7 @@ public class VerificarPolindromo {
 		} else {
 			System.out.println("A palavra " + palavra + " não é um polidromo");
 		}
+		word.close();
 	}
 
 }

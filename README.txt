@@ -81,3 +81,40 @@ Este é um programa simples em Java que verifica se uma palavra fornecida pelo u
 
 Este programa foi criado como um exemplo para treinar lógica de programação em Java.
 
+## Número Primo
+# Verificar Número Primo
+
+Este projeto é um programa em Java que verifica se um número inteiro positivo é um número primo.
+
+## Descrição
+
+O programa solicita ao usuário que insira um número inteiro maior que zero. Ele valida a entrada para garantir que seja um número válido e, em seguida, verifica se o número é primo. Um número primo é aquele que só pode ser dividido por 1 e por ele mesmo.
+
+## Funcionalidades
+
+- Validação de entrada para garantir que o número seja um inteiro positivo.
+- Verificação eficiente de números primos utilizando a raiz quadrada para otimizar o processo.
+- Mensagens claras para o usuário em caso de erro ou sucesso.
+
+## Como Executar
+
+1. Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) instalado em sua máquina.
+2. Clone este repositório ou copie o arquivo `VerificarNumeroPrimo.java` para o seu ambiente de desenvolvimento.
+3. Compile o programa com o seguinte comando:
+
+
+## Estrutura do Código
+
+- **Validação de Entrada**: Garante que o número seja um inteiro positivo.
+- **Verificação de Primalidade**: Utiliza um laço que verifica divisores até a raiz quadrada do número.
+- **Mensagens ao Usuário**: Fornece feedback claro sobre o status da entrada e do número.
+
+## Requisitos
+
+- Java 8 ou superior.
+
+## Autor
+
+Este programa foi desenvolvido como um exemplo de verificação de números primos em Java.
+
+
