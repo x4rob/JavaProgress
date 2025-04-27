@@ -46,3 +46,38 @@ Adicionar tratamento de erros para entradas inválidas
 Formatador de saída para limitar casas decimais
 
 Opção para calcular outros tipos de média (ponderada, etc.)
+
+
+# Verificar Palíndromo
+
+Este é um programa simples em Java que verifica se uma palavra fornecida pelo usuário é um **palíndromo**. Um palíndromo é uma palavra que pode ser lida da mesma forma de trás para frente, como "radar" ou "arara".
+
+## Como funciona
+
+1. O programa solicita ao usuário que insira uma palavra.
+2. A palavra é invertida utilizando um laço `for`.
+3. O programa compara a palavra original com a palavra invertida, ignorando diferenças entre maiúsculas e minúsculas.
+4. O resultado é exibido informando se a palavra é ou não um palíndromo.
+
+## Estrutura do Código
+
+- **Entrada do Usuário**: O programa utiliza a classe `Scanner` para capturar a palavra digitada.
+- **Inversão da Palavra**: Um laço `for` percorre a palavra de trás para frente e constrói a versão invertida.
+- **Comparação**: A palavra original e a invertida são comparadas usando o método `equalsIgnoreCase()`.
+- **Saída**: O programa exibe uma mensagem indicando se a palavra é um palíndromo.
+
+
+## Como Executar
+
+1. Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) instalado.
+2. Compile o programa:
+
+## Observações
+
+- O programa contém um pequeno erro de digitação na palavra "polidromo", que deveria ser "palíndromo". Você pode corrigir isso no código, se necessário.
+- Este programa funciona apenas com palavras simples. Para frases ou palavras com espaços e pontuações, seria necessário aprimorar o código.
+
+## Autor
+
+Este programa foi criado como um exemplo para treinar lógica de programação em Java.
+
